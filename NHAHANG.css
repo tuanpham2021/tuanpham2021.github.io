@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+.nav{
+	positoion:fixed;
+	background-color: #FEE4B3;
+	height:70px;
+	
+}
+.noidung1, .noidung2{
+	background-color: #8B0406;
+	height:500px;
+}
+.fas {
+	font-size: 40px;
+}
+.nav ul li{
+	display:inline;
+	padding:30px;
+	font-size:20px;
+	font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+}
+.nav img{
+	float: left;
+	height:120px;
+	margin-top: -20px;
+	padding-left:25px;
+}
+.nav ul{
+	float: right;
+	padding-top:20px;
+}
+.noidung1{
+	background-image: url("png.png");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:100%;
+	text-align: center;
+}
+.noidung1{
+	color:#FEE4B3;
+	text-shadow: 2px 2px 5px #8B0406;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:25px;
+	padding-top: 200px;
+}
+.nhanqua{
+	font-size:25px;
+	color:#020202;
+	background: #FFDDA2;
+	display:inline-block;
+	padding: 10px 30px;
+	border-radius: 50px;
+	margin-top: 20px;
+	text-transform:uppercase;
+	text-decoration:none;
+	letter-spacing: 4px;
+	transition: 0.5s;
+}
+.nhanqua:hover{
+	letter-spacing: 6px;
+}
+
+.trainghiem{
+	margin-top: 240px;
+	background-color:#8B0406;
+}
+img{
+	height:500px;
+	transition: transform 0.3s;
+}
+.hinhanh{
+	display: inline;
+	flex-basic:30%;
+	min-width: 250px;
+	margin:30px 20px 20px 20px;
+}
+div .bst img:hover{
+	transform: scale(0.9);
+}
+.small-container{
+	max-width: 1080px;
+	margin:auto;
+}
+
+.noidungsanpham{
+	background-color:#8B0406;
+	position: rerelative;
+	height: 500px;	
+	padding-top:50px;
+}
+.lon1, .lon2{
+	display: inline;
+	height:290px;
+}
+.bentrai{
+	float:left;	
+}
+.benphai{
+	float:right;   
+}
+.chuale2ben{
+	padding: 0 10%;
+}
+
+.noidungsanpham2{
+	background-color:#8B0406;
+	position: relative;
+	height: 500px;	
+	padding-top:50px;
+}	
+.lonmaudo, .lontraicay{
+	display: inline;
+	height:290px;
+}
+.bentraih2{
+	float:left;	
+}
+.benphaih2{
+	float:right;
+}
+.noidungsanpham3{
+	background-color:#8B0406;
+	position: relative;
+	height: 500px;	
+	padding-top:50px;
+}	
+.chainau, .chaivang{
+	display: inline;
+	height: 290px;
+}
+.bentraih3{
+	float:left;
+}
+.benphaih3{
+	float:right;
+}
+.buy{
+	font-size:23px;
+	color:#020202;
+	background-color:#FFDDA2;
+	display:inline-block;
+	padding: 5px 30px;
+	border-radius: 30px;
+	margin-top: 18px;
+	text-transform:uppercase;
+	text-decoration:none;
+	letter-spacing: 4px;
+	transition: 0.5s;
+	animation: animation ease-in-out .5s infinite;
+}
+@keyframes animation {
+	from{
+		background-color: #FFDDA2;
+		}
+	to{
+		background-color: #F26917;
+	}
+}
+.buy:hover{
+	letter-spacing: 8px;
+}	
+.diachi{
+	background-color:#3C0001;
+	height:300px;
+	padding-top: 100px;
+}
+.ggmap{
+	padding-top:20px;
+	height:230px;
+}
+.bt{
+	float:left;
+	padding-left: 20%;
+}
+.contentcuoi{
+	padding-top:150px;
+	font-size:15px;
+}
+
+
+
+
+
+

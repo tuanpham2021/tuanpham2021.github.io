@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+}
+p{
+	font-weight: 300;
+	color: #111;
+}
+.banner{
+	position: relative;
+	width:100%;
+	min-height: 100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background: url("budweiser-wallpaper-6.jpeg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.banner .content {
+	max-width: 900px;
+	text-align: center;
+}
+.banner .content h1 
+{
+	font-size: 50px;
+	color: #FFD699;
+	text-shadow: 3px 4px 5px black;
+}
+.banner .content p {
+	font-size:35px;
+	color: #DEC287;
+	text-shadow: 1px 1px 2px black;	
+}
+.btn{
+	font-size:25px;
+	color:#020202;
+	background: #FFDDA2;
+	display:inline-block;
+	padding: 10px 30px;
+	border-radius: 50px;
+	margin-top: 20px;
+	text-transform:uppercase;
+	text-decoration:none;
+	letter-spacing: 2px;
+	transition: 0.5s;
+}
+.btn:hover
+{
+	letter-spacing: 6px;
+}
+header 
+{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px;
+	z-index:10000;
+	dislay: flex;
+	justify-content:space-between;
+	align-items: center;
+	transition: 0.5s;
+}
+img{
+	height:120px;
+}
+header .hihi {
+	position:relative;
+	dislay: flex;
+}
+header .hihi li{
+	list-style: none;
+	marfin-left: 30px;
+}
+header .hihi li a
+{
+	text-decoration: none;
+	color: #FFC783;
+	margin: 0;
+	font-size: 20px;
+	font-weight:900;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+}
+li
+{
+	display: inline;
+	padding: 4%;
+}
